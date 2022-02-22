@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Cadeiras</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="produto.css">
+  <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/31ea3b7a4a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <div class="caixa">
+       <a href="home.html"><img id="logo" src="image/marca-habitable_06-10-15.png" alt="Logo-Habitable"></a>
+
+       <div class="search-box">
+          <input type="text" class="pesquisa" placeholder="buscar produto">
+          <a class="search-button" href="#">
+             <i class="fa-solid fa-magnifying-glass"></i>
+          </a>
+       </div>
+
+       <nav>
+          <ul>
+             <li class="menu-item"><a class="p-hov" href="home.html">Home</a></li>
+             <li class="menu-item"><a class="p-hov" id="catalogo" href="">Catálogo <i class="fa-solid fa-caret-down"></i></a>
+                <ul class="sub-menulist">
+                   <li><a href="cadeiras.html">Cadeiras</a></li>
+                   <li><a href="poltronas.html">Poltronas</a></li>
+                   <li><a href="banquetas.html">Banquetas</a></li>
+                   <li><a href="mesas.html">Mesas</a></li>
+                </ul>
+             </li>
+             <li class="menu-item"><a class="p-hov" href="material.html">Material</a></li>
+             <li class="menu-item"><a class="p-hov" href="contato.html">Contato</a></li>
+          </ul>
+       </nav>
+    </div>
+  </header>
+  <main>
+    <section class="prod-cadeiras">
+      <div class="menu-sidebar">
+        <h3 class="titulo-categ">Categorias</h3>
+        <form>
+          <div class="caixa-tipo">
+              <h3 class="cat1"> Tipo </h3>
+              <label class="checkbox"><input type="checkbox" > S/ Braço </label>
+              <label class="checkbox"><input type="checkbox" > C/ Braço </label>
+              <label class="checkbox"><input type="checkbox" > Palha </label>
+          </div>
+
+          <div class="caixa-cores">
+            <h3 class="cat1"> Cores de Pintura </h3>
+            <label class="checkbox"><input type="checkbox" > Natural </label>
+            <label class="checkbox"><input type="checkbox" > Mel </label>
+            <label class="checkbox"><input type="checkbox" > Tabaco </label>
+            <label class="checkbox"><input type="checkbox" > Ebanizado </label>
+          </div>
+          <input type="submit" value="Pesquisar" class="pesquisar">
+        </form>
+          <div class="img-cadeiras">
+            <ul class="banner-total">
+              <li>
+                <img src="image/1.jpg" alt="cadeira 1">
+                <h2 class="titulo-imgcadeira">Cadeira Avila</h2>
+                <p class="desc">Cadeira C/ Braço, Madeira Cor Mel e Ebanizado</p>
+              </li>
+              <li>
+                <img src="image/2.jpg" alt="cadeira 2">
+                <h2 class="titulo-imgcadeira">Cadeira Distrito</h2>
+                <p class="desc">Cadeira C/ Braço, Madeira Cor Ebanizado</p>
+              </li>
+              <li>
+                <img src="image/3.jpg" alt="cadeira 3">
+                <h2 class="titulo-imgcadeira">Cadeira Luciana</h2>
+                <p class="desc">Cadeira S/Braço, Madeira Natural</p>
+              </li>
+              <li>
+                <img src="image/4.jpg" alt="cadeira 4">
+                <h2 class="titulo-imgcadeira">Cadeira Ozzy</h2>
+                <p class="desc">Cadeira S/Braço, Madeira Cor Ebanizado</p>
+              </li>
+              <li>
+                <img src="image/5.jpg" alt="cadeira 5">
+                <h2 class="titulo-imgcadeira">Cadeira Sevilha</h2>
+                <p class="desc">Cadeira C/Braço, Madeira Cor Mel</p>
+              </li>
+              <li>
+                <img src="image/6.jpg" alt="cadeira 6">
+                <h2 class="titulo-imgcadeira">Cadeira North</h2>
+                <p class="desc">Cadeira North C/ Braço</p>
+              </li>
+            </ul>
+          </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <img id="logocopy" src="image/marca-habitable_06-10-15.png" alt="Logo-Habitable">
+    <p class="copyright">&copy; Copyright Habitable Cadeiras - 1987</p> 
+ </footer>
+</body>
+</html>

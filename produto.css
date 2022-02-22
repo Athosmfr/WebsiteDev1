@@ -1,0 +1,284 @@
+body {
+  /* font-family:'Montserrat', sans-serif;
+  font-family: 'Oswald', sans-serif; */
+  font-family: "Abel", sans-serif;
+  background: rgb(225, 225, 225);
+}
+
+header {
+  background: #494039;
+  padding: 30px 0;
+}
+
+.caixa {
+  position: relative;
+  width: auto;
+  margin: 0 auto;
+}
+
+#logo {
+  position: relative;
+  width: 450px;
+  height: auto;
+  margin-left: 130px;
+  bottom: 5px;
+}
+
+.search-box {
+  position: absolute;
+  top: 55px;
+  right: 50%;
+  height: 50px;
+  background: #ebccb2;
+  border-radius: 40px;
+}
+
+.search-button {
+  color: rgb(0, 0, 0);
+  float: right;
+  width: 40px;
+  height: 50px;
+  border-radius: 50%;
+  background: #ebccb2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pesquisa {
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: rgb(0, 0, 0);
+  font-size: 17px;
+  transition: 0.4s;
+  line-height: 50px;
+  width: 180px;
+  padding-left: 15px;
+}
+
+nav {
+  position: absolute;
+  top: 70px;
+  right: 200px;
+}
+
+.menu-item {
+  display: inline-block; /* faz com que a lista fique em linha, ou seja, um item do lado do outro */
+  margin: 0 0 0 65px;
+}
+
+nav a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  /* font-weight: bold; */
+  font-size: 25px;
+  padding: 0 10px;
+  transition: 0.3s;
+}
+
+.p-hov:hover {
+  color: rgb(216, 216, 216);
+  font-size: 26px;
+  padding: 5px 14px;
+  border: 1px solid rgba(255, 255, 255, 0.027);
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+#catalogo::after {
+  content: "";
+}
+
+/*nav a:hover {
+  color: rgb(216, 216, 216);
+  font-size: 26px;
+  padding: 5px 14px;
+  border: 1px solid rgba(255, 255, 255, 0.027);
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.2);
+} */
+
+/* SUB MENU */  
+
+.sub-menulist {
+  display: none;
+  position: absolute;
+  margin-top: 8px;
+  padding: 5px 0px;
+  background: #494039;
+}
+
+nav ul li:hover ul{
+  display: block;
+}
+
+.sub-menulist {
+  width: 150px;
+}
+
+nav ul ul li a {
+  display: block;
+  text-align: center;
+  font-family: "Signika Negative", sans-serif;
+  /* position: fixed;
+  right: 0%; */
+  color: rgb(211, 211, 211);
+  font-size: 20px;
+  margin-top: 5px;
+  padding: 7px 0px;
+}
+
+ .degrade-1 {
+  padding: 120px;
+  background: linear-gradient(#494039,#b4a872);
+}
+
+
+/* SIDEBAR */
+
+.menu-sidebar {
+  display: inline-block;
+  position: absolute;
+  margin: 30px 0px 30px 50px;
+  width: 150px;
+}
+
+.titulo-categ {
+  font-family: "Montserrat", Arial, Tahoma, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 25px;
+  padding: 0 0 5px;
+  border-bottom: 1px solid rgba(58, 58, 58, 0.596);
+  margin-bottom: 20px;
+}
+
+.caixa-tipo {
+  border: 2px solid rgba(19, 19, 19, 0.4);
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.cat1 {
+  font-family: "Montserrat", Arial, Tahoma, sans-serif;
+  text-transform: uppercase;
+  font-size: 13px;
+  text-align: center;
+  font-weight: 200;
+  letter-spacing: 1px;
+  margin: 0 0 30px 0;
+}
+
+.checkbox {
+  display: block;
+  margin: 20px 0;
+}
+
+.caixa-cores {
+  border: 2px solid rgba(19, 19, 19, 0.4);
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.pesquisar {
+  width: 150px;
+  margin: 20px 0 0 0;
+  padding: 15px 0;
+  font-size: 15px;
+  font-weight: 100;
+  text-transform: uppercase;
+  font-family: "Montserrat", Arial, Tahoma, sans-serif;
+  border-radius: 5px;
+  color: white;
+  background: #242424;
+  border: none;
+}
+
+.pesquisar:hover {
+  background: #131313;
+  transform: scale(1.04);
+}
+
+.img-cadeiras {
+  width: 1280px;
+
+}
+
+.em-breve {
+  position: relative;
+  font-size: 40px;
+  color: #696969;
+  left: 400px;
+  top: 300px;
+  text-decoration:underline;
+}
+
+.banner-total {
+  width: 1380px;
+  margin: 0 auto;
+  position: absolute;
+  top: 40px;
+  padding: 0 0 0 120px;
+  left: 220px;
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.banner-total li {
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  margin: 1.5% 4%;
+  width: 25%;
+  box-sizing: border-box;
+  border: 2px solid rgba(0, 0, 0, 0.527);
+  border-radius: 10px;
+  padding: 40px;
+  background: rgb(255, 255, 255);
+}
+
+.banner-total li:hover {
+  transform: scale(1.04);
+  border-color: yellowgreen;
+
+}
+
+.titulo-imgcadeira {
+  font-size: 24px;
+  margin: 10px 0 0 0;
+
+}
+
+.desc {
+  font-size: 18px;
+  margin: 20px 0 0 0;
+}
+
+footer {
+  background: rgb(10, 10, 10);
+  position: relative;
+  top: 1100px;
+}
+
+#logocopy {
+  width: 450px;
+  height: auto;
+  position: relative;
+  text-align: center;  
+  left: 37%;
+  padding: 30px 0 45px 0;
+}
+
+
+.copyright {
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  padding-bottom: 50px;
+}

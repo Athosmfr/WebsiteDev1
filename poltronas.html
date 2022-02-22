@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Poltronas</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="produto.css">
+  <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/31ea3b7a4a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <div class="caixa">
+       <a href="home.html"><img id="logo" src="image/marca-habitable_06-10-15.png" alt="Logo-Habitable"></a>
+
+       <div class="search-box">
+          <input type="text" class="pesquisa" placeholder="buscar produto">
+          <a class="search-button" href="#">
+             <i class="fa-solid fa-magnifying-glass"></i>
+          </a>
+       </div>
+
+       <nav>
+          <ul>
+             <li class="menu-item"><a class="p-hov" href="home.html">Home</a></li>
+             <li class="menu-item"><a class="p-hov" id="catalogo" href="">Catálogo <i class="fa-solid fa-caret-down"></i></a>
+                <ul class="sub-menulist">
+                   <li><a href="cadeiras.html">Cadeiras</a></li>
+                   <li><a href="poltronas.html">Poltronas</a></li>
+                   <li><a href="banquetas.html">Banquetas</a></li>
+                   <li><a href="mesas.html">Mesas</a></li>
+                </ul>
+             </li>
+             <li class="menu-item"><a class="p-hov" href="material.html">Material</a></li>
+             <li class="menu-item"><a class="p-hov" href="contato.html">Contato</a></li>
+          </ul>
+       </nav>
+    </div>
+  </header>
+  <main>
+    <section class="prod-cadeiras">
+      <div class="menu-sidebar">
+        <h3 class="titulo-categ">Categorias</h3>
+        <form>
+          <div class="caixa-tipo">
+              <h3 class="cat1"> Acabamento </h3>
+              <label class="checkbox"><input type="checkbox" > Mel </label>
+              <label class="checkbox"><input type="checkbox" > Ebano </label>
+              <label class="checkbox"><input type="checkbox" > Natural </label>
+          </div>
+
+          <div class="caixa-cores">
+            <h3 class="cat1"> Cores de Tecido </h3>
+            <label class="checkbox"><input type="checkbox" > Preto </label>
+            <label class="checkbox"><input type="checkbox" > Amarelo - Limão </label>
+            <label class="checkbox"><input type="checkbox" > Terroso </label>
+            <label class="checkbox"><input type="checkbox" > Veludo </label>
+          </div>
+          <input type="submit" value="Pesquisar" class="pesquisar">
+        </form>
+          <div class="img-cadeiras">
+            <ul class="banner-total">
+              <li>
+                <img src="image/poltrona1.png" alt="cadeira 1">
+                <h2 class="titulo-imgcadeira">Poltrona Duommo</h2>
+                <p class="desc">Poltrona com acabamento em cor Mel, tecido na cor Preto</p>
+              </li>
+              <li>
+                <img src="image/poltrona2.png" alt="cadeira 2">
+                <h2 class="titulo-imgcadeira">Poltrona Barcelona</h2>
+                <p class="desc">Poltrona em couro ecológico Preto, com opção de sistema giratório</p>
+              </li>
+              <li>
+                <img src="image/poltrona3.png" alt="cadeira 3">
+                <h2 class="titulo-imgcadeira">Poltrona Alexia</h2>
+                <p class="desc">Poltrona com acabamento cor Mel, estofado em cor Amarelo-Limão</p>
+              </li>
+              <li>
+                <img src="image/poltrona4.png" alt="cadeira 4">
+                <h2 class="titulo-imgcadeira">Poltrona Allis</h2>
+                <p class="desc">Poltrona com acabamento cor Mel, estofado em cor Terroso</p>
+              </li>
+              <li>
+                <img src="image/poltrona5.png" alt="cadeira 5">
+                <h2 class="titulo-imgcadeira">Poltrona Victor Hugo</h2>
+                <p class="desc">Poltrona com estofamento em cor Veludo</p>
+              </li>
+            </ul>
+          </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <img id="logocopy" src="image/marca-habitable_06-10-15.png" alt="Logo-Habitable">
+    <p class="copyright">&copy; Copyright Habitable Cadeiras - 1987</p> 
+ </footer>
+</body>
+</html>

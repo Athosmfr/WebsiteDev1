@@ -1,0 +1,244 @@
+body {
+  /* font-family:'Montserrat', sans-serif;
+  font-family: 'Oswald', sans-serif; */
+  font-family: "Abel", sans-serif;
+  background: rgb(86, 93, 15);
+}
+
+header {
+  background: #494039;
+  padding: 30px 0;
+}
+
+.caixa {
+  position: relative;
+  width: auto;
+  margin: 0 auto;
+}
+
+#logo {
+  position: relative;
+  width: 450px;
+  height: auto;
+  margin-left: 130px;
+  bottom: 5px;
+}
+
+.search-box {
+  position: absolute;
+  top: 55px;
+  right: 50%;
+  height: 50px;
+  background: #ebccb2;
+  border-radius: 40px;
+}
+
+.search-button {
+  color: rgb(0, 0, 0);
+  float: right;
+  width: 40px;
+  height: 50px;
+  border-radius: 50%;
+  background: #ebccb2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pesquisa {
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: rgb(0, 0, 0);
+  font-size: 17px;
+  transition: 0.4s;
+  line-height: 50px;
+  width: 180px;
+  padding-left: 15px;
+}
+
+nav {
+  position: absolute;
+  top: 70px;
+  right: 200px;
+}
+
+.menu-item {
+  display: inline-block; /* faz com que a lista fique em linha, ou seja, um item do lado do outro */
+  margin: 0 0 0 65px;
+}
+
+nav a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  /* font-weight: bold; */
+  font-size: 25px;
+  padding: 0 10px;
+  transition: 0.3s;
+}
+
+.p-hov:hover {
+  color: rgb(216, 216, 216);
+  font-size: 26px;
+  padding: 5px 14px;
+  border: 1px solid rgba(255, 255, 255, 0.027);
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+#catalogo::after {
+  content: "";
+}
+
+/*nav a:hover {
+  color: rgb(216, 216, 216);
+  font-size: 26px;
+  padding: 5px 14px;
+  border: 1px solid rgba(255, 255, 255, 0.027);
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.2);
+} */
+
+/* SUB MENU */  
+
+.sub-menulist {
+  display: none;
+  position: absolute;
+  margin-top: 8px;
+  padding: 5px 0px;
+  background: #494039;
+}
+
+nav ul li:hover ul{
+  display: block;
+}
+
+.sub-menulist {
+  width: 150px;
+}
+
+nav ul ul li a {
+  display: block;
+  text-align: center;
+  font-family: "Signika Negative", sans-serif;
+  /* position: fixed;
+  right: 0%; */
+  color: rgb(211, 211, 211);
+  font-size: 20px;
+  margin-top: 5px;
+  padding: 7px 0px;
+}
+
+.caixa-intromaterial {
+  background: rgb(139, 151, 24);
+  padding: 0 0 500px;
+}
+
+.titulo-intromaterial {
+  font-size: 35px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  padding: 60px 0 0 140px;
+  text-transform: uppercase;
+  font-family: 'Bebas Neue', cursive;
+  color: rgb(216, 216, 216);
+}
+
+.texto-intromaterial {
+  text-align: justify;
+  width: 800px;
+  font-size: 22px;
+  font-weight: 700;
+  padding: 30px 0 40px 140px;
+  color: rgb(216, 216, 216);
+}
+
+.foto-madeira1 {
+  height: 400px;
+  position: absolute;
+  right: 142px;
+  bottom: 40px;
+  border: 1px solid rgb(200, 200, 200);
+}
+
+.foto-madeira2 {
+  height: 400px;
+  position: absolute;
+  left: 140px;
+  border: 1px solid rgb(200, 200, 200);
+  bottom: 80px;
+}
+
+
+.texto-base {
+  text-align: justify;
+  font-size: 22px;
+  font-weight: 700;
+  padding: 120px 0 100px 140px;
+  position: relative;
+  width: 1200px;
+  left: 11%;
+  color: rgb(216, 216, 216);
+  line-height: 1.5;
+}
+
+.texto-iniciolist {
+  text-align: center;
+  font-size: 35px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-bottom: 30px;
+  color: white;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.beneficios {
+  padding: 3em 0;
+}
+
+.conteudo-beneficios {
+  width: 1840px;
+  margin: 0 20px 0 600px;
+}
+
+.lista-beneficios {
+  width: 40%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.texto-beneficio {
+  line-height: 3;
+  font-size: 22px;
+  font-weight: bold;
+  color: rgb(214, 214, 214);
+}
+
+.texto-beneficio::before {
+  content: "• ";
+  padding-right: 10px;
+}
+
+footer {
+  background: rgb(10, 10, 10);
+}
+
+#logocopy {
+  width: 450px;
+  height: auto;
+  position: relative;
+  text-align: center;
+  left: 37%;
+  padding: 30px 0 45px 0;
+}
+
+
+.copyright {
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  padding-bottom: 30px;
+}

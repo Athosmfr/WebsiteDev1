@@ -1,0 +1,214 @@
+body {
+  /* font-family:'Montserrat', sans-serif;
+  font-family: 'Oswald', sans-serif; */
+  font-family: "Abel", sans-serif;
+}
+
+header {
+  background: #494039;
+  padding: 30px 0;
+}
+
+.caixa {
+  position: relative;
+  width: auto;
+  margin: 0 auto;
+}
+
+#logo {
+  position: relative;
+  width: 450px;
+  height: auto;
+  margin-left: 130px;
+  bottom: 5px;
+}
+
+.search-box {
+  position: absolute;
+  top: 55px;
+  right: 50%;
+  height: 50px;
+  background: #ebccb2;
+  border-radius: 40px;
+}
+
+.search-button {
+  color: rgb(0, 0, 0);
+  float: right;
+  width: 40px;
+  height: 50px;
+  border-radius: 50%;
+  background: #ebccb2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pesquisa {
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: rgb(0, 0, 0);
+  font-size: 17px;
+  transition: 0.4s;
+  line-height: 50px;
+  width: 180px;
+  padding-left: 15px;
+}
+
+nav {
+  position: absolute;
+  top: 70px;
+  right: 200px;
+}
+
+.menu-item {
+  display: inline-block; /* faz com que a lista fique em linha, ou seja, um item do lado do outro */
+  margin: 0 0 0 65px;
+}
+
+nav a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  /* font-weight: bold; */
+  font-size: 25px;
+  padding: 0 10px;
+  transition: 0.3s;
+}
+
+.p-hov:hover {
+  color: rgb(216, 216, 216);
+  font-size: 26px;
+  padding: 5px 14px;
+  border: 1px solid rgba(255, 255, 255, 0.027);
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+#catalogo::after {
+  content: "";
+}
+
+/*nav a:hover {
+  color: rgb(216, 216, 216);
+  font-size: 26px;
+  padding: 5px 14px;
+  border: 1px solid rgba(255, 255, 255, 0.027);
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.2);
+} */
+
+/* SUB MENU */  
+
+.sub-menulist {
+  display: none;
+  position: absolute;
+  margin-top: 8px;
+  padding: 5px 0px;
+  background: #494039;
+}
+
+nav ul li:hover ul{
+  display: block;
+}
+
+.sub-menulist {
+  width: 150px;
+}
+
+nav ul ul li a {
+  display: block;
+  text-align: center;
+  font-family: "Signika Negative", sans-serif;
+  /* position: fixed;
+  right: 0%; */
+  color: rgb(211, 211, 211);
+  font-size: 20px;
+  margin-top: 5px;
+  padding: 7px 0px;
+}
+
+ .degrade-1 {
+  padding: 120px;
+  background: linear-gradient(#494039,#b4a872);
+}
+
+/* MAIN */
+
+form {
+  margin: 40px 50px 0 600px;
+}
+
+form label {
+  display: block;
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+
+.input-padrao {
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 25px;
+  width: 50%;
+}
+
+.enviar {
+  width: 25%;
+  padding: 10px 0;
+  margin: 20px 0 50px 195px;
+  background: rgb(221, 186, 32);
+  font-weight: bold;
+  font-size: 18px;
+  color: rgb(231, 231, 231);
+  text-transform: uppercase;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 7px;
+  transition: 0.5s;
+}
+
+.enviar:hover {
+  transform: scale(1.2);
+  color: white;
+  border: 1px solid white;
+  background: rgb(221, 149, 32);
+}
+
+.caixa-info {
+  margin-bottom: 40px;
+  border-top: 1px solid rgba(0, 0, 0, 0.404);
+  padding: 20px 0 0 0;
+  background: linear-gradient(rgb(219, 219, 219), white)
+  
+}
+
+.info-contato {
+  text-align: center;
+  line-height: 2;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+footer {
+  background: rgb(10, 10, 10);
+}
+
+#logocopy {
+  width: 450px;
+  height: auto;
+  position: relative;
+  text-align: center;
+  left: 37%;
+  padding: 30px 0 45px 0;
+}
+
+
+.copyright {
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  padding-bottom: 30px;
+}

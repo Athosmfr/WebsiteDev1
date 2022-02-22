@@ -1,0 +1,296 @@
+body {
+  /* font-family:'Montserrat', sans-serif;
+  font-family: 'Oswald', sans-serif; */
+  font-family: "Abel", sans-serif;
+  width: auto;
+}
+
+header {
+  background: #494039;
+  padding: 30px 0;
+}
+
+.caixa {
+  position: relative;
+  width: auto;
+  margin: 0 auto;
+}
+
+#logo {
+  position: relative;
+  width: 450px;
+  height: auto;
+  margin-left: 130px;
+  bottom: 5px;
+}
+
+.search-box {
+  position: absolute;
+  top: 55px;
+  right: 50%;
+  height: 50px;
+  background: #ebccb2;
+  border-radius: 40px;
+}
+
+.search-button {
+  color: rgb(0, 0, 0);
+  float: right;
+  width: 40px;
+  height: 50px;
+  border-radius: 50%;
+  background: #ebccb2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pesquisa {
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: rgb(0, 0, 0);
+  font-size: 17px;
+  transition: 0.4s;
+  line-height: 50px;
+  width: 180px;
+  padding-left: 15px;
+}
+
+nav {
+  position: absolute;
+  top: 70px;
+  right: 200px;
+}
+
+.menu-item {
+  display: inline-block; /* faz com que a lista fique em linha, ou seja, um item do lado do outro */
+  margin: 0 0 0 65px;
+}
+
+nav a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  /* font-weight: bold; */
+  font-size: 25px;
+  padding: 0 10px;
+  transition: 0.3s;
+}
+
+.p-hov:hover {
+  color: rgb(216, 216, 216);
+  font-size: 26px;
+  padding: 5px 14px;
+  border: 1px solid rgba(255, 255, 255, 0.027);
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+#catalogo::after {
+  content: "";
+}
+
+/*nav a:hover {
+  color: rgb(216, 216, 216);
+  font-size: 26px;
+  padding: 5px 14px;
+  border: 1px solid rgba(255, 255, 255, 0.027);
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.2);
+} */
+
+/* SUB MENU */  
+
+.sub-menulist {
+  display: none;
+  position: absolute;
+  margin-top: 8px;
+  padding: 5px 0px;
+  background: #494039;
+}
+
+nav ul li:hover ul{
+  display: block;
+}
+
+.sub-menulist {
+  width: 150px;
+}
+
+nav ul ul li a {
+  display: block;
+  text-align: center;
+  font-family: "Signika Negative", sans-serif;
+  /* position: fixed;
+  right: 0%; */
+  color: rgb(211, 211, 211);
+  font-size: 20px;
+  margin-top: 5px;
+  padding: 7px 0px;
+}
+
+ .degrade-1 {
+  padding: 120px;
+  background: linear-gradient(#494039,#b4a872);
+}
+
+/* INTRODUÇÃO */
+.introducao {
+  background: #b4a872;
+  padding: 0 0 120px 0;
+}
+
+.titulo-principal {
+  text-align: left;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(214, 214, 214);
+  font-family: "Kaisei Decol", serif;
+  display: inline-block;
+  position: absolute;
+  left: 250px;
+  bottom: 320px;
+}
+
+.cadeira-intro {
+  margin: 140px 0 0 0;
+  position: relative;
+  left: 1270px;
+  width: 300px;
+  bottom: 10px;
+  height: auto;
+  display: inline-block;
+  border: 5px solid rgb(29, 29, 29);
+  border-radius: 200px;
+  box-shadow: 1px 1px 20px;
+}
+
+.text-intro {
+  padding: 5px 18px;
+  color: whitesmoke;
+  width: 800px;
+  text-align: justify;
+  position: absolute;
+  line-height: 1.5;
+  left: 235px;
+  bottom: 30px;
+  font-size: 22px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+/* VITRINE */
+
+.vitrine {
+  background: rgb(32, 32, 32);
+  height: 1000px;
+}
+
+.titulo-vitrine {
+  padding: 100px 0 50px 0;
+  text-align: center;
+  color: rgb(214, 214, 214);
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Kaisei Decol", serif;
+}
+
+.prod-cadeiras {
+  width: 845px;
+  box-sizing: border-box;
+  position: relative;
+  left: 29.5%;
+}
+
+.prod-cadeiras li {
+  display: inline-block;
+  text-align: center;
+  width: 35%;
+  vertical-align: top;
+  margin: 3% 5%;
+  box-shadow: 2px 2px 25px 0.5px;
+  box-sizing: border-box;
+}
+
+.prod-cadeiras li:hover {
+  color: rgba(255, 255, 255, 0.746)
+}
+
+.imagem-vitrine {
+  width: 300px;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+.imagem-vitrine:hover {
+  width: 310px;
+}
+
+/* LOCALIZAÇÃO */
+.localização {
+  background: rgb(214, 214, 214);
+  height: 800px;
+}
+
+.titulo-local {
+  padding: 40px 0 20px 0;
+  text-align: center;
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Kaisei Decol", serif;
+} 
+
+.text-local {
+  text-align: center;
+  font-size: 22px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 10px 0 40px 0;
+}
+
+.mapa {
+  width: 400px;
+  margin: 0 410px;
+}
+
+#foto-casa1 {
+  width: 700px;
+  height: 500px;
+  position: absolute;
+  right: 392px;
+  top: 2188px;
+}
+
+/* #foto-casa2 {
+  width: 400px;
+  height: 250px;
+  position: absolute;
+  top: 1368px;
+  right: 570px;
+  border: 1px solid #222222;
+} */
+
+footer {
+  background: rgb(10, 10, 10);
+}
+
+#logocopy {
+  width: 450px;
+  height: auto;
+  position: relative;
+  text-align: center;
+  left: 37%;
+  padding: 30px 0 45px 0;
+}
+
+
+.copyright {
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  padding-bottom: 30px;
+}
